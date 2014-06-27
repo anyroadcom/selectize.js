@@ -11,14 +11,14 @@
   },
   "main": "dist/js/selectize.js",
   "scripts": [
-    "dist/js/standalone/selectize.js"
+    "dist/js/selectize.js"
   ],
   "styles": [
     "dist/css/selectize.css"
   ],
   "dependencies": {
-    "anyroadcom/sifter": "0.3.x",
-    "anyroadcom/microplugin": "0.0.x",
+    "anyroadcom/sifter.js": "0.3.x",
+    "anyroadcom/microplugin.js": "0.0.x",
     "components/jquery": ">=1.7.0"
   }
 }
