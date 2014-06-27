@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/anyroadcom/selectize.js.git"
   },
-  "main": "dist/js/standalone/selectize.js",
+  "main": "dist/js/selectize.js",
   "scripts": [
     "dist/js/standalone/selectize.js"
   ],
@@ -17,6 +17,8 @@
     "dist/css/selectize.css"
   ],
   "dependencies": {
+    "anyroadcom/sifter": "0.3.x",
+    "anyroadcom/microplugin": "0.0.x",
     "components/jquery": ">=1.7.0"
   }
 }
