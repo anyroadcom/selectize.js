@@ -1,23 +1,22 @@
 {
-	"name": "selectize",
-	"keywords": ["select", "ui", "form", "input", "control", "autocomplete", "tagging", "tag"],
-	"description": "Selectize is a jQuery-based custom <select> UI control. Useful for tagging, contact lists, country selectors, etc.",
-	"version": "0.10.1",
-	"license": "Apache License, Version 2.0",
-	"readmeFilename": "README.md",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/anyroadcom/selectize.js.git"
-	},
-	"main": "dist/js/standalone/selectize.js",
+  "name": "selectize",
+  "keywords": ["select", "ui", "form", "input", "control", "autocomplete", "tagging", "tag"],
+  "description": "Selectize is a jQuery-based custom <select> UI control. Useful for tagging, contact lists, country selectors, etc.",
+  "version": "0.10.1",
+  "license": "Apache License, Version 2.0",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anyroadcom/selectize.js.git"
+  },
+  "main": "dist/js/standalone/selectize.js",
   "scripts": [
-		"dist/js/standalone/selectize.js"
+    "dist/js/standalone/selectize.js"
   ],
   "styles": [
-		"dist/css/selectize.css",
+    "dist/css/selectize.css"
   ],
-
-	"dependencies": {
-		"components/jquery": ">=1.7.0",
-	}
+  "dependencies": {
+    "components/jquery": ">=1.7.0"
+  }
 }
